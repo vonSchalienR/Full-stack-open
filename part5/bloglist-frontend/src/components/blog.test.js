@@ -1,7 +1,7 @@
 import React from 'react'
 import '@testing-library/jest-dom/extend-expect'
 import { render, fireEvent } from '@testing-library/react'
-import Blog from './Blog'
+import Blog from './blog'
 
 test('Blog renders the blog\'s title and author, but does not render its url or number of likes by default.', () => {
   const blog = {
